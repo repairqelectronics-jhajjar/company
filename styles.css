@@ -542,12 +542,26 @@ input, select, textarea {
 }
 
 .hero-h1 {
-  font-size: 70px;
+  margin-bottom: 24px;
+}
+
+.hero-h1-main {
+  display: block;
+  font-size: 58px;
   font-weight: 800;
-  line-height: 1.08;
+  line-height: 1.1;
   letter-spacing: -0.02em;
   color: var(--primary-text);
-  margin-bottom: 24px;
+  margin-bottom: 16px;
+}
+
+.hero-h1-sub {
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+  color: var(--secondary-text);
 }
 
 .hero-lead {
@@ -2071,8 +2085,12 @@ input, select, textarea {
 
 /* TABLET LANDSCAPE & SMALL LAPTOP (992px – 1199px) */
 @media (max-width: 1199px) {
-  .hero-h1 {
-    font-size: 42px;
+  .hero-h1-main {
+    font-size: 44px;
+    margin-bottom: 14px;
+  }
+  .hero-h1-sub {
+    font-size: 24px;
   }
   .feature-rows {
     gap: 64px;
@@ -2138,11 +2156,13 @@ input, select, textarea {
     height: 50px;
     border-width: 1.5px;
   }
-  .hero-h1 {
-    font-size: 53px;
-    font-weight: 800;
-    line-height: 1.1;
-    letter-spacing: -0.02em;
+  .hero-h1-main {
+    font-size: 38px;
+    margin-bottom: 12px;
+  }
+  .hero-h1-sub {
+    font-size: 21px;
+    line-height: 1.35;
   }
   .hero-lead {
     font-size: 20px;
@@ -2195,9 +2215,13 @@ input, select, textarea {
 
 /* SMALL PHONES (<= 480px) */
 @media (max-width: 480px) {
-  .hero-h1 {
-    font-size: clamp(36px, 10.5vw, 48px);
-    line-height: 1.1;
+  .hero-h1-main {
+    font-size: clamp(28px, 8.5vw, 34px);
+    margin-bottom: 10px;
+  }
+  .hero-h1-sub {
+    font-size: clamp(16px, 5vw, 19px);
+    line-height: 1.35;
   }
   .hero-lead {
     font-size: 18px;
