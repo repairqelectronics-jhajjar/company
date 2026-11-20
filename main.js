@@ -1,9 +1,36 @@
 /**
  * Repair Q Electronics — Production Client Script
  * Powers interactive hero bench, ROI calculator, drawer navigation,
- * multi-open FAQs, and quote modal with WhatsApp integration.
+ * multi-open FAQs, quote modal, and GA4 conversion tracking.
  * Scope: VFDs, Soft Starters, HMI Panels, PLC Systems, and Industrial Electronics.
  */
+
+// ============================================================
+// GA4 CONVERSION TRACKING HELPERS
+// ============================================================
+function trackEvent(eventName, params) {
+  if (typeof gtag === 'function') {
+    gtag('event', eventName, params || {});
+  }
+}
+
+// Track all data-track anchor clicks (phone, WhatsApp, quote) anywhere in the page
+document.addEventListener('click', (e) => {
+  const el = e.target.closest('[data-track]');
+  if (!el) return;
+  const trackId = el.getAttribute('data-track');
+  if (!trackId) return;
+
+  if (trackId.includes('phone') || el.href && el.href.startsWith('tel:')) {
+    trackEvent('phone_call_click', { event_category: 'CTA', event_label: trackId });
+  } else if (trackId.includes('whatsapp') || (el.href && el.href.includes('wa.me'))) {
+    trackEvent('whatsapp_click', { event_category: 'CTA', event_label: trackId });
+  } else if (trackId.includes('quote') || trackId.includes('modal')) {
+    trackEvent('quote_modal_open', { event_category: 'CTA', event_label: trackId });
+  } else {
+    trackEvent('cta_click', { event_category: 'CTA', event_label: trackId });
+  }
+}, true);
 
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -322,6 +349,13 @@ document.addEventListener('DOMContentLoaded', () => {
         formFeedback.style.display = 'block';
         formFeedback.innerHTML = `<strong>Inquiry Logged!</strong> Thank you ${name}. Ajay will review your <strong>${brand} ${equip}</strong> diagnostic report and contact you at <strong>${phone}</strong> shortly. Opening WhatsApp...`;
       }
+
+      // Track quote form submission
+      trackEvent('quote_form_submit', {
+        event_category: 'Lead',
+        event_label: `${brand} ${equip}`,
+        value: 1
+      });
 
       // Automatically construct and open WhatsApp message to Ajay
       setTimeout(() => {
