@@ -1721,6 +1721,129 @@ input, select, textarea {
 }
 
 /* ============================================================
+   8.5. BLOG & TECHNICAL ARTICLES SECTION
+============================================================ */
+.blog-section {
+  padding-top: var(--band-pad-top);
+  padding-bottom: var(--band-pad-bottom);
+  background-color: var(--page-ground);
+  border-bottom: 1px solid var(--hairline);
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--gap);
+  margin-top: 48px;
+}
+
+.blog-card {
+  background: #ffffff;
+  border: 1px solid var(--hairline);
+  border-radius: var(--card-corner);
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-4px);
+  border-color: #b5ba9c;
+  box-shadow: 0 16px 32px -8px rgba(63, 98, 18, 0.12);
+}
+
+.blog-card-badge-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.blog-badge {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--primary-action-fill);
+  background: var(--accent-light);
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.blog-read-time {
+  font-size: 12px;
+  color: var(--muted-text);
+  font-weight: 500;
+}
+
+.blog-card-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--primary-text);
+  margin-bottom: 14px;
+}
+
+.blog-card-title a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.blog-card-title a:hover {
+  color: var(--primary-action-fill);
+}
+
+.blog-card-excerpt {
+  font-size: 14.5px;
+  line-height: 1.55;
+  color: var(--secondary-text);
+  margin-bottom: 24px;
+  flex-grow: 1;
+}
+
+.blog-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 18px;
+  border-top: 1px solid var(--hairline);
+  margin-top: auto;
+}
+
+.blog-author {
+  font-size: 12px;
+  color: var(--muted-text);
+  font-weight: 500;
+}
+
+.blog-read-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--primary-action-fill);
+  text-decoration: none;
+  transition: gap 0.2s ease, color 0.15s ease;
+}
+
+.blog-read-link:hover {
+  gap: 10px;
+  color: var(--primary-action-hover);
+}
+
+@media (max-width: 991px) {
+  .blog-grid {
+    grid-template-columns: 1fr;
+    max-width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* ============================================================
    9. CLOSING BANNER (INVERTED COLORS)
 ============================================================ */
 .closing-banner-section {
