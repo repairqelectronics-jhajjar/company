@@ -1,0 +1,19 @@
+{
+  "siteUrl": "https://company-zeta-swart.vercel.app",
+  "customDomainPlanned": "repairqelectronics.in",
+  "businessName": "Repair Q Electronics",
+  "proprietor": "Ajay",
+  "phone": "+91 83071 93825",
+  "phoneRaw": "8307193825",
+  "email": "repairqelectronics@gmail.com",
+  "address": {
+    "street": "Near Yadav Dharamshala, Circular Road",
+    "city": "Jhajjar",
+    "state": "Haryana",
+    "postalCode": "124103",
+    "country": "IN"
+  },
+  "hours": "Mo-Su 09:00-20:00",
+  "visitingFee": "No Visiting Charge for Service Area Factory Breakdown",
+  "warranty": "1-month"
+}

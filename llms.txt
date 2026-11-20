@@ -1,0 +1,40 @@
+# Repair Q Electronics
+
+> Multi-brand component-level industrial electronics repair laboratory based in Jhajjar, Haryana, India. Serving industrial clusters across Delhi NCR and Haryana with free on-site inspections, pickup/drop-off, and courier options.
+
+## Core Facts
+- **Business Name:** Repair Q Electronics (RepairQ)
+- **Proprietor / Technical Lead:** Ajay (5+ years hands-on component-level repair experience)
+- **Workshop Address:** Near Yadav Dharamshala, Circular Road, Jhajjar, Haryana - 124103, India
+- **Phone / WhatsApp:** +91 83071 93825
+- **Email:** repairqelectronics@gmail.com
+- **Hours of Operation:** Monday to Sunday (Open all 7 days), 9:00 AM – 8:00 PM IST
+- **Visiting Charges:** Zero / No visiting charge for industrial factory visits in primary service areas
+- **Warranty:** 1-month repair warranty on all serviced equipment
+- **Turnaround:** 24–48 hours rush; 48–72 hours standard
+- **Cost Advantage:** 60%–70% savings compared to OEM unit replacement
+- **Testing Standard:** Dynamic motor load rig testing, waveform analysis, and functional load burn-in
+
+## Primary Equipment Repaired
+1. **Variable Frequency Drives (VFDs) & AC Drives:** 0.5 HP to 500 HP; IGBT module replacement, gate driver repairs, DC bus capacitor banks, pre-charge resistors, control board component fixes. (Brands: Danfoss, Yaskawa, Siemens, ABB, Delta, Schneider Altivar, Fuji, Mitsubishi, Allen-Bradley).
+2. **Soft Starters & Motor Controllers:** Anti-parallel SCR thyristors, bypass contactor check, trigger gate circuits. (Brands: ABB, Siemens SIRIUS, Schneider Altistart, Danfoss MCD).
+3. **HMI Panels & Industrial Touchscreens:** Touch digitizer replacement, LCD backlights, communication port driver ICs (RS-485 / Profibus / Ethernet). (Brands: Siemens SIMATIC, Schneider Magelis, Mitsubishi GOT, Pro-face, Omron, Delta).
+4. **PLC Systems & Modular I/O:** Power supply modules, digital/analog I/O cards, optical coupler replacement, relay outputs, communication cards. (Brands: Allen-Bradley, Siemens S7-1200/1500/300, Mitsubishi MELSEC, Omron, Schneider Modicon).
+5. **Injection Moulding Machine Cards & Industrial SMPS:** HRTC temperature controller cards, MTC cards, Techmation controller boards, Rexroth proportional valve & pressure amplifier cards.
+6. **HVAC & Industrial Chiller Motherboards:** Chiller control microprocessors, Carrier ISM, Carrier IO Board, ICVC, Trane Tracer / HMI, York, Daikin chiller electronics.
+7. **Press Brake & CNC Controllers:** Cybelec (DNC series), Delem (DA series), and ESA bending controllers, optical encoder inputs, axis driver cards, power boards.
+8. **On-Site Factory Troubleshooting:** Zero-visiting-fee on-site diagnostics for factory breakdown in Delhi NCR and Haryana.
+
+## Geographic Service Areas (Factory Pickup, Drop-off & On-Site Visits)
+- **Home Base:** Jhajjar, Haryana (124103)
+- **Delhi NCR Industrial Belts:** Bawana, Narela, Okhla, Mayapuri, Wazirpur, Mundka, Badli
+- **Gurugram:** Udyog Vihar, Sector 37, Dundahera
+- **Manesar:** IMT Manesar automobile & auto-ancillary hub
+- **Rohtak:** Industrial Area, Sunrise Industrial Estate, Fastener & Engineering belt
+- **Kharkhoda:** HSIIDC Kharkhoda, Maruti Suzuki industrial ecosystem
+- **Bahadurgarh:** M.I.E. Industrial Area, Footwear & engineering cluster
+
+## Website & Canonical References
+- Homepage: https://company-zeta-swart.vercel.app/
+- Service Catalog: https://company-zeta-swart.vercel.app/#services
+- Contact & Emergency Line: tel:+918307193825 / https://wa.me/918307193825
