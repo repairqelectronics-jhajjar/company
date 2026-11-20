@@ -545,23 +545,19 @@ input, select, textarea {
   margin-bottom: 24px;
 }
 
-.hero-h1-main {
+.hero-h1-main,
+.hero-h1-sub {
   display: block;
-  font-size: 58px;
+  font-family: var(--font-family);
+  font-size: 56px;
   font-weight: 800;
   line-height: 1.1;
   letter-spacing: -0.02em;
   color: var(--primary-text);
-  margin-bottom: 16px;
 }
 
-.hero-h1-sub {
-  display: block;
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 1.35;
-  letter-spacing: -0.01em;
-  color: var(--secondary-text);
+.hero-h1-main {
+  margin-bottom: 18px;
 }
 
 .hero-lead {
@@ -2085,12 +2081,12 @@ input, select, textarea {
 
 /* TABLET LANDSCAPE & SMALL LAPTOP (992px – 1199px) */
 @media (max-width: 1199px) {
-  .hero-h1-main {
-    font-size: 44px;
-    margin-bottom: 14px;
-  }
+  .hero-h1-main,
   .hero-h1-sub {
-    font-size: 24px;
+    font-size: 42px;
+  }
+  .hero-h1-main {
+    margin-bottom: 14px;
   }
   .feature-rows {
     gap: 64px;
@@ -2156,13 +2152,13 @@ input, select, textarea {
     height: 50px;
     border-width: 1.5px;
   }
-  .hero-h1-main {
-    font-size: 38px;
-    margin-bottom: 12px;
-  }
+  .hero-h1-main,
   .hero-h1-sub {
-    font-size: 21px;
-    line-height: 1.35;
+    font-size: 36px;
+    line-height: 1.15;
+  }
+  .hero-h1-main {
+    margin-bottom: 12px;
   }
   .hero-lead {
     font-size: 20px;
@@ -2215,13 +2211,13 @@ input, select, textarea {
 
 /* SMALL PHONES (<= 480px) */
 @media (max-width: 480px) {
-  .hero-h1-main {
-    font-size: clamp(28px, 8.5vw, 34px);
-    margin-bottom: 10px;
-  }
+  .hero-h1-main,
   .hero-h1-sub {
-    font-size: clamp(16px, 5vw, 19px);
-    line-height: 1.35;
+    font-size: clamp(26px, 8vw, 32px);
+    line-height: 1.15;
+  }
+  .hero-h1-main {
+    margin-bottom: 10px;
   }
   .hero-lead {
     font-size: 18px;
