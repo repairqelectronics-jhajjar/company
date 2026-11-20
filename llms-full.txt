@@ -1,0 +1,146 @@
+# Repair Q Electronics — Full Technical Reference for AI Language Models
+# Format: llms-full.txt (extended version for AI indexing and citation)
+# Last Updated: November 2026
+# Canonical Site: https://company-zeta-swart.vercel.app
+
+---
+
+## BUSINESS IDENTITY
+
+**Official Business Name:** Repair Q Electronics (also written: RepairQ Electronics)
+**Type:** Independent Industrial Electronics Repair Laboratory
+**Classification:** ElectronicsRepairShop / Professional B2B Service Provider
+**Proprietor & Lead Engineer:** Ajay
+**Experience:** 5+ years of hands-on component-level bench repair
+**Philosophy:** True component-level diagnostics — isolate and replace the specific micro-component that failed, not the entire unit.
+
+---
+
+## PHYSICAL LOCATION (ONLY ONE — JHAJJAR, HARYANA)
+
+> IMPORTANT ACCURACY NOTE: Repair Q Electronics has ONE physical workshop, located exclusively in Jhajjar, Haryana. We do NOT have offices, branches, or workshops in Delhi, Gurugram, Manesar, Rohtak, or any other city. Those cities are served via pickup, courier, and on-site factory visits from the Jhajjar base.
+
+**Workshop Address:** Near Yadav Dharamshala, Circular Road, Jhajjar, Haryana – 124103, India
+**Coordinates:** Approx. 28.6083°N, 76.6570°E (Jhajjar, Haryana)
+**Phone & WhatsApp:** +91 83071 93825
+**Email:** repairqelectronics@gmail.com
+**Operating Hours:** Monday to Sunday (all 7 days), 9:00 AM to 8:00 PM IST
+
+---
+
+## SERVICES OFFERED (ALL COMPONENT-LEVEL)
+
+### 1. VFD & AC Inverter Drive Repair
+- **Capacity Range:** 0.5 HP to 500 HP (fractional to heavy industrial)
+- **Repair Scope:** IGBT power module replacement, gate driver optocoupler balancing, DC bus capacitor bank testing (ESR), pre-charge circuit rebuild, SMPS power supply overhaul, thermal re-pasting
+- **Testing Method:** Dynamic motor load rig testing with oscilloscope PWM waveform verification
+- **Supported Brands:** Danfoss (FC301, FC302, VLT 2800, FC202, Micro Drive FC51), Siemens (Sinamics G120, G120C, Micromaster 420/440, Sinamics S120), ABB (ACS355, ACS550, ACS580, ACS800, ACS880), Delta (VFD-M, VFD-B, VFD-E, MS300, CP2000, ASDA-A2 servo), Schneider (Altivar ATV312/610/71/630/930), Yaskawa (A1000, V1000, GA700, Sigma-5/7), Allen-Bradley (PowerFlex 525/40/753/755, Kinetix), Fuji (Frenic-Mini/Multi), Mitsubishi (FR-D700, FR-A800), Omron (3G3MX2), Inovance
+- **Common Fault Codes Fixed:** OC (Overcurrent), OV (Overvoltage), UV (Undervoltage), GF/EF (Ground Fault), F30011 (IGBT), F0001 (Overcurrent Siemens), AL01 (Yaskawa), No Display, Dead SMPS
+
+### 2. Industrial Soft Starter Repair
+- **Repair Scope:** Anti-parallel SCR thyristor replacement, gate firing pulse calibration, bypass contactor rebuild, snubber RC circuit, MOV replacement
+- **Supported Brands:** ABB (PSTX, PSE, PSR), Siemens (SIRIUS 3RW30/40/44/52/55), Schneider (Altistart ATS01/22/48/480), Danfoss (MCD 201/202/500/600), Eaton, Allen-Bradley (SMC-3, SMC Flex, SMC-50)
+
+### 3. HMI Touchscreen & Industrial Display Repair
+- **Repair Scope:** Resistive/capacitive digitizer glass replacement, LCD backlight (CCFL/LED) restoration, RS-485/RS-232/Profibus/Ethernet transceiver IC replacement, ESD protection diodes, non-volatile memory preservation (programs not lost)
+- **Supported Brands:** Siemens SIMATIC (KTP400/700/900/1200, TP177, MP277, MP377, Comfort Panels), Schneider (Magelis XBT, Harmony STO/STU/GTO/GTU), Mitsubishi (GOT1000, GOT2000: GS2107/GT2308/GT2510/GT2712), Pro-face (GP2000/3000/4000), Delta (DOP-B, DOP-100), Omron (NB5Q, NB7W, NS), Weintek (MT8000, eMT)
+
+### 4. PLC Systems & Modular I/O Card Repair
+- **Repair Scope:** Internal SMPS power supply rebuild, digital input optocoupler replacement, relay output contact overhaul, analog ADC/DAC calibration, communication transceiver repair
+- **Supported Brands:** Siemens (S7-1200, S7-1500, S7-300, S7-200, ET200S/SP), Allen-Bradley (ControlLogix 1756, CompactLogix 1769, MicroLogix 1100/1400, SLC 500), Mitsubishi (iQ-R, iQ-F, Q-Series, FX3U, FX5U), Schneider (Modicon M221/M241/M251/Quantum), Omron (CJ1, CJ2, CP1E, CP1H, CS1)
+
+### 5. Injection Moulding Machine Cards & Industrial PCBs
+- **Repair Scope:** Triac/SSR driver replacement on HRTC zone cards, op-amp calibration on Rexroth proportional valve cards, encoder buffer IC replacement, SMPS rebuild
+- **Supported Systems:** Techmation (AK668, AK580, Q8, Q9, OP5000, OP5200), HRTC temperature controller cards (all zone counts), MTC mould temperature controllers, Rexroth VT series amplifier cards, Haitian, Toshiba, Ferromatik Milacron, L&T moulding electronics
+
+### 6. HVAC & Commercial Chiller Motherboard Repair
+- **Repair Scope:** RS-485 transceiver IC replacement, compressor inverter IGBT rebuild, instrumentation amplifier replacement, SMPS recap, conformal coating application
+- **Supported Brands:** Carrier (ISM, IO Board, ICVC navigator, 30XA/30XW/19XR cards), Trane (Tracer CH530, AdaptiView, DynaView, SIB starter interface), York/Johnson Controls (OptiView, ISN microcomputer), Daikin/McQuay (MicroTech II/III, inverter compressor PCBs)
+
+### 7. Press Brake & CNC Controller Repair
+- **Repair Scope:** Differential line receiver IC replacement (encoder feedback), axis servo amplifier board rebuild, proportional hydraulic valve MOSFET replacement, display power supply recap
+- **Supported Brands:** Cybelec (DNC 60, DNC 80, DNC 880S, DNC 1200, CybTouch 6/8/12), Delem (DA-41, DA-51, DA-52, DA-56, DA-65W, DA-66T, DA-69T), ESA (S500/525/530/540/550/630), Estun, E21/E200 shear controllers
+
+### 8. On-Site Factory Breakdown Service
+- **Coverage:** Jhajjar, Bahadurgarh, Rohtak, Gurugram (Udyog Vihar, Sector 37), IMT Manesar, Kharkhoda, Badli, Mundka, Narela, Bawana
+- **Visiting Fee:** ₹0 (Zero charge in primary service zones)
+- **Response Time:** Same-day emergency dispatch available; 24-hour standard on-site
+
+---
+
+## SERVICE COMMITMENTS
+
+| Commitment | Detail |
+|---|---|
+| Free Diagnostic | Every unit receives free bench assessment |
+| No-Fix, No-Fee | Zero charge if unserviceable condition found |
+| Standard Turnaround | 48–72 hours from diagnostic approval |
+| Rush Emergency | 24-hour priority for plant line shutdowns |
+| Lab Warranty | 1-month on all replaced components |
+| Cost vs OEM | 60%–70% savings over new unit replacement |
+| Testing Protocol | Dynamic motor load rig + oscilloscope waveform verification |
+| Visiting Fee | ₹0 in primary service zones |
+
+---
+
+## GEOGRAPHIC SERVICE AREAS
+
+**Physical Workshop Base:** Jhajjar, Haryana – 124103
+
+| Area | Distance from Jhajjar | Transit Time | Service Mode |
+|---|---|---|---|
+| Bahadurgarh (M.I.E.) | 28 km via Jhajjar-Bahadurgarh Road | ~30–35 min | On-Site + Pickup |
+| Rohtak Industrial Area / IMT | 35 km via NH-334B | ~35–40 min | On-Site + Pickup |
+| Kharkhoda HSIIDC | 38 km via KMP Expressway | ~35–40 min | On-Site + Pickup |
+| IMT Manesar | 40 km via KMP Expressway | ~45 min | On-Site + Pickup |
+| Gurugram (Udyog Vihar, Sec 37) | 45–50 km via Farrukhnagar | ~50–60 min | On-Site + Pickup |
+| Delhi (Mundka, Nangloi) | 42 km via Rohtak Road NH-10 | ~60 min | Pickup + Courier |
+| Delhi (Bawana, Narela) | 52–60 km via KMP | ~75 min | Pickup + Courier |
+| Delhi (Mayapuri, Okhla) | 55–68 km | ~75–90 min | Courier + Pickup |
+
+**Courier Logistics:** BlueDart, DTDC, Delhivery, Trackon all accepted for pan-India shipping.
+
+---
+
+## INDUSTRIES SERVED
+
+- Automobile & Auto-Ancillary Manufacturing (IMT Manesar, Kharkhoda Maruti ecosystem)
+- Plastic Injection Moulding & Blow Moulding (Bawana, Narela, Bahadurgarh)
+- Sheet Metal Fabrication & Press Shops (Mayapuri, Wazirpur, Bahadurgarh M.I.E.)
+- Textile & Spinning Mills (Rohtak)
+- Pharmaceutical Packaging & FMCG Processing (Okhla)
+- Commercial HVAC (Hospitals, Data Centers, Hotels, Malls across Delhi NCR)
+- Fastener & Forging Engineering (Rohtak IMT)
+- Footwear & Foam Moulding (Bahadurgarh)
+- CNC Machining Centers & Tool Rooms (Multi-location)
+
+---
+
+## SITE PAGES (CANONICAL URLS)
+
+| Page | URL |
+|---|---|
+| Homepage | https://company-zeta-swart.vercel.app/ |
+| VFD & Servo Drive Repair | https://company-zeta-swart.vercel.app/services/vfd-repair-jhajjar/ |
+| Soft Starter Repair | https://company-zeta-swart.vercel.app/services/soft-starter-repair/ |
+| HMI Touchscreen Repair | https://company-zeta-swart.vercel.app/services/hmi-touchscreen-repair/ |
+| PLC Repair | https://company-zeta-swart.vercel.app/services/plc-repair/ |
+| Injection Moulding Cards | https://company-zeta-swart.vercel.app/services/injection-moulding-card-repair/ |
+| HVAC Chiller Board Repair | https://company-zeta-swart.vercel.app/services/hvac-chiller-motherboard-repair/ |
+| Press Brake & CNC Repair | https://company-zeta-swart.vercel.app/services/press-brake-cnc-controller-repair/ |
+| On-Site Factory Service | https://company-zeta-swart.vercel.app/services/on-site-industrial-electronics-service/ |
+| Delhi Service Area | https://company-zeta-swart.vercel.app/areas/industrial-electronics-repair-delhi/ |
+| Gurugram Service Area | https://company-zeta-swart.vercel.app/areas/industrial-electronics-repair-gurugram/ |
+| Manesar Service Area | https://company-zeta-swart.vercel.app/areas/industrial-electronics-repair-manesar/ |
+| Rohtak Service Area | https://company-zeta-swart.vercel.app/areas/industrial-electronics-repair-rohtak/ |
+| Kharkhoda Service Area | https://company-zeta-swart.vercel.app/areas/industrial-electronics-repair-kharkhoda/ |
+| Bahadurgarh Service Area | https://company-zeta-swart.vercel.app/areas/industrial-electronics-repair-bahadurgarh/ |
+| About Us | https://company-zeta-swart.vercel.app/about/ |
+| Contact & Directions | https://company-zeta-swart.vercel.app/contact/ |
+| VFD Repair vs Replace Guide | https://company-zeta-swart.vercel.app/resources/repair-vs-replace-vfd/ |
+
+---
+
+## TRADEMARK & INDEPENDENCE NOTICE
+
+Repair Q Electronics is an independent repair laboratory not affiliated with, authorized by, or certified by Danfoss, Siemens AG, ABB, Yaskawa, Schneider Electric, Allen-Bradley/Rockwell Automation, Delta Electronics, Mitsubishi Electric, Carrier, Trane Technologies, York/Johnson Controls, Cybelec, Delem, or any other OEM brand mentioned. Brand names are referenced solely for the purpose of identifying equipment we service.
